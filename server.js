@@ -3,7 +3,7 @@ const apiRoutes = require("./routes/apiRoutes");
 
 const app = express();
 
-app.use(express.json());   // This line is REQUIRED
+app.use(express.json());  
 
 app.use("/", apiRoutes);
 
